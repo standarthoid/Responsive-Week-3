@@ -32,6 +32,7 @@
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .button-1 {
   margin: 20px;
