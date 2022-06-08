@@ -1,0 +1,134 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.h2-mine {
+  margin: 100px auto 0px;
+  font-size: 48px;
+  display: block;
+}
+.h1-mine,
+.h2-mine,
+.h3-mine {
+  text-align: center;
+  margin: center;
+}
+.h1-mine {
+  margin: 0 auto;
+  display: block;
+  font-size: 96px;
+}
+.h3-mine {
+  font-size: 24px;
+  opacity: 0.7;
+  display: block;
+  margin: 10 auto;
+}
+.buttons {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.button-1 {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.button-2 {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.contact {
+  color: white;
+  text-decoration: none;
+}
+.about {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--primary-color);
+}
+.backtohomepage {
+  margin: 60px auto 0;
+}
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+.p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.email {
+  font-size: 24px;
+  text-decoration: none;
+}
+.email:hover {
+  text-decoration: underline;
+}
+.navbar-brand {
+  margin: 0px 16px 0px 0px;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0px 75px;
+  padding: 0px 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 0px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font: 16px;
+  max-width: 160px;
+  display: inline;
+  text-align: right;
+}
+.container-margin {
+  margin: 40px auto;
+}
+.h1-margin {
+  margin: 100px auto 0px;
+}
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
