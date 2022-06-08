@@ -81,6 +81,7 @@ a {
 .email {
   font-size: 24px;
   text-decoration: none;
+  margin: 0px auto 30px;
 }
 .email:hover {
   text-decoration: underline;
@@ -138,7 +139,4 @@ p {
     margin: 0 auto;
     text-align: center;
   }
-}
-.contact {
-  margin: 20px auto;
 }
